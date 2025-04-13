@@ -3,8 +3,24 @@
 <p>
 
 <p align="center">
-   <h1>Di♪♪Rhythm: Blazingly Fast and Embarrassingly Simple</br>End-to-End Full-Length Song Generation with Latent Diffusion</h1>
+   <h1>Di♪♪Rhythm: Blazingly Fast and Embarrassingly Simple</br>End-to-End Full-Length Song Generation with Latent Diffusion (with Gradio GUI)</h1>
 </p>
+
+**Forked from [DiffRhythm Official Repo](https://github.com/ASLP-lab/DiffRhythm)**
+
+This repository includes a simple Gradio server so that users can easily run DiffRhythm with a web-based GUI.
+
+Please follow the official installation guide below to install DiffRhythm. Once you are done with installation, simply execute the following command to start the Gradio server:
+```bash
+python ./infer/server.py [--share] [--server_name host_name] [--server_port port_number]
+```
+
+Example:
+```bash
+python ./infer/server.py --share
+```
+
+# Original README:
 
 Ziqian Ning, Huakang Chen, Yuepeng Jiang, Chunbo Hao, Guobin Ma, Shuai Wang, Jixun Yao, Lei Xie†
 

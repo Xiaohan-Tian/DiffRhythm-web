@@ -1,4 +1,5 @@
 .cache/
+.gradio/
 __pycache__/
 pretrained/
 .vscode
@@ -7,3 +8,7 @@ pretrained/
 *.wav
 ckpt
 wandb
+infer/example/output
+infer/example/upload
+/infer_prompt_ref.bat
+/infer_wav_ref.bat
